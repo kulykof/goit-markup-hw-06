@@ -179,7 +179,7 @@
 <!--------FOOTER---------> 
     <footer class="footer">
         <div class="container">
-            <div class="footer-container">
+            <div class="footer-container footer-container-address">
                 <a class="footer-logo link" href="./index.html">Web<span>Studio</span></a>
                 <address class="address">
                     <ul class="adress-list list">
@@ -222,8 +222,18 @@
                     </li>                   
                 </ul>
             </div>
+            <div class="footer-container-subscribe">
+                <h3 class="footer-subscribe-title">Підпишіться на розсилку</h3>
+                <form class="email-form">
+                    <input type="email" name="email" class="email-form-input" placeholder="E-mail" required/>
+                    <button type="submit" class="email-form-btn btn">Підписатися
+                        <svg class="form-btn-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send-footer-icon"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
-    <script src="./js/modal.js"></script>
 </body>
 </html>
